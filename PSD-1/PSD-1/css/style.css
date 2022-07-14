@@ -1,0 +1,22 @@
+.parent{
+    width: 800px;
+    height: 800px;
+    background-color: rgb(213, 236, 176);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center /* flex-start, flex-end,space-between,space-evenly*/;
+    align-items: center /*flex-end, fles-start*/;
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 5px;
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    margin: 5px;
+}
